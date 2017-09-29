@@ -31,7 +31,9 @@ project = {
   ]
 }
 
+index = 0
 project[:steps].each do |step|
-  step[:person] = "Stella"
+  step[:person] = project[:committee][index]
+  index += 1
 end
 p project
