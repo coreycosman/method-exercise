@@ -96,5 +96,6 @@ end
 day = Date.new(2017,9,11)
 day_2 = Date.new(2017,9,12)
 p cohort_1 = Cohort.new(day)
-p cohort_1.coffee_code_day?(day_2)
-p 
+p cohort_1.coffee_code_days
+p cohort_1.class_days
+p cohort_1.weeks_of_cohort
